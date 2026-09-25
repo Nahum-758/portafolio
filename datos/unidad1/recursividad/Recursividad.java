@@ -24,8 +24,8 @@ public class Recursividad{
 	}
 
 	public static void main(String[] args) {
-		//Recursividad(10, "Nahum");
-		cuentaRegresiva(10);
+		//Recursividad(100, "Nahum");
+		cuentaRegresiva(100);
 	}
 
 }
