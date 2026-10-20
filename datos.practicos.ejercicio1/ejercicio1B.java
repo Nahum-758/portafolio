@@ -1,8 +1,12 @@
+//* *
+/*EP1B Arreglos
+* @date 01 de octubre del 2026
+* @name Ángel Nahúm Camarillo Solano
+*/
 public class ejercicio1B {
     public static void main(String[] args) {
         int K = 9; // Último dígito (8) + 1
 
-// FASE 1: Arreglo Unidimensional
         int[] lecturas = {10, -5, 20, K * 2, -1, 30, 0, 15};
 
         for (int i = lecturas.length - 1; i >= 0; i--) {
@@ -15,7 +19,6 @@ public class ejercicio1B {
 //Se produce porque el código intentaba inicializar con el bucle i=lecturas.length, lo cual provocaba que el programa buscara algún índice equivalente al tamaño total del arreglo; por lo que su solución correcta es restar uno para comenzar el recorrido de cada último elemento válido. Esto porque los arreglos en Java dan un esquema de indexación basado en cero, lo que significa que las posiciones válidas de acceso se encuentran siempre en un rango desde 0 hasta length - 1.
 
 
-// FASE 2: Matriz Irregular (Jagged Array)
         int[][] ventas = new int[3][];
         ventas[0] = new int[K];
         ventas[1] = new int[K + 1];
@@ -33,8 +36,6 @@ public class ejercicio1B {
         System.out.println("Suma total de elementos en la matriz irregular: " + sumaTotal);
 //Tarea 2.3 (Pregunta conceptual): ¿Cuál es la ventaja de memoria de un Jagged Array sobre una matriz tradicional de N x M cuando los datos de cada fila no son homogéneos? que permite que cada fila interna mantenga una longitud de columnas completamente independiente, lo que permite adaptarse de maner estricta a la cantidad real de datos que almacena.
 
-
-// FASE 3: Arreglo Tridimensional (Cubo)
         int[][][] cubo = new int[2][K][K];
 
         for (int i = 0; i < 2; i++) {
