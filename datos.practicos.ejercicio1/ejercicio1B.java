@@ -1,5 +1,5 @@
 //* 
-/* @ APEJ1B Clases Parametrizadas
+/* @ EPA1B Arreglos
 * @ date 28 de septiembre del 2026
 *Ángel Nahúm 
 */
