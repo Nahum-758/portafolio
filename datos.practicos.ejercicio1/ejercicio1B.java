@@ -1,7 +1,7 @@
 //* 
 /* @ EPA1B Arreglos
-* @ date 28 de septiembre del 2026
-*Ángel Nahúm 
+* @date 01 de octubre del 2026
+* @name Ángel Nahúm Camarillo Solano
 */
 public class ejercicio1B {
     public static void main(String[] args) {
